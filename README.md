@@ -4,7 +4,7 @@ Title
 
 ### 1. Projet
 
-Mise en oeuvre d'un pipeline quantitative pour détecter les structures de support oblique haussier dominantes et identifier les breaks de support par le bas confirmées.
+Mise en oeuvre d'un pipeline quantitative pour détecter les structures de support oblique haussier dominantes et identifier les breaks de support confirmées.
 
 L'étude porte sur TotalEnergies (TTE.PA) sur la période 2021-2026, avec une séparation temporelle stricte :
 
@@ -67,7 +67,7 @@ La ligne de support détectée (2021-2023) est projetée sur la période 2024-20
 
 Ceci garantit une validation hors échantillon.
 
-#### 2.4 Break du support oblique haussier par le bas, conditions
+#### 2.4 Break du support oblique haussier, conditions
 
 Pénétration du support > 1 %
 
@@ -83,7 +83,7 @@ Support oblique haussier dominant (si détecté)
 
 Points bas estimés par la méthode des fractales de Bill Williams
 
-Break du support par le bas confirmé
+Break du support confirmé
 
 Visualisation 
 

@@ -1,7 +1,7 @@
 """
 plot.py
 
-Visualisation finale sous forme de graphique (points bas du support oblique haussier dominant, support projeté sur période de test, 1e cassure éventuelle du support par le bas)
+Visualisation finale sous forme de graphique (points bas du support oblique haussier dominant, support projeté sur période de test, 1e cassure éventuelle du support)
 
 """
 
@@ -16,15 +16,15 @@ def plot_support_analysis(
     inliers_train: pd.DataFrame,
     support_test: pd.Series,
     break_series: pd.Series = None,
-    title: str = "Support oblique haussier et détection éventuelle de la 1e cassure par le bas du support",
+    title: str = "Support oblique haussier et détection éventuelle de la 1e cassure du support",
 ):
     """
     Plots:
         - dataset action (train + test)
         - points bas estimés par fractales de Bill Williams
         - points bas significatifs estimés par RANSAC
-        - Support oblique haussier projeté (période de test)
-        - Break par le bas du support confirmé
+        - support oblique haussier projeté (période de test)
+        - 1er break du support confirmé
 
     Parameters
     ----------

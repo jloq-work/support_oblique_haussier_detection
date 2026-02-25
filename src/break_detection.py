@@ -4,7 +4,7 @@ break_detection.py
 Détection d'une cassure par le bas du support projeté (prédit par RANSAC) sur le dataset de test.
 
 3 conditions de confirmation du break:
-    1. Cassure par le bas du support et d'au moins 1% en distance par rapport au support
+    1. Cassure du support et d'au moins 1% en distance par rapport au support
     2. Cloture sous le support
     3. Conditions 1 et 2 sur plusieurs séances boursières consécutives
 
