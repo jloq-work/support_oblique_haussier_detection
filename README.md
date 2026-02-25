@@ -8,9 +8,9 @@ Mise en oeuvre d'un pipeline quantitative pour détecter les structures de suppo
 
 L'étude porte sur TotalEnergies (TTE.PA) sur la période 2021-2026, avec une séparation temporelle stricte :
 
-Période d'entraînement : 2014-2020
+Période d'entraînement : 2021-2023
 
-Période de test : 2021-2026
+Période de test : 2024-2026
 
 L'objectif: transformer un concept classique d'analyse technique en une méthodologie reproductible et statistiquement robuste.
 
